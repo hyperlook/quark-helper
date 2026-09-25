@@ -1,0 +1,7 @@
+quark-auth.json
+quark-download-helper.user.js
+debug*.png
+.DS_Store
+issues/
+AGENTS.md
+agent-browser.json

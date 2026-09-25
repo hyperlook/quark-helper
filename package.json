@@ -1,0 +1,23 @@
+{
+  "name": "quark-download-helper",
+  "version": "2.0.1",
+  "description": "夸克网盘网页端高速下载助手 (Tampermonkey 油猴脚本) - 突破客户端 100MB 拦截限制，调用官方私有 CDN 高速直链，支持浏览器原生直下与直链自动复制",
+  "homepage": "https://github.com/hyperlook/quark-helper",
+  "main": "quark-download-helper.user.js",
+  "scripts": {
+    "build": "bun run scripts/build.js",
+    "dev": "bun run scripts/build.js --watch",
+    "preview": "bun run build && bun run scripts/preview.js",
+    "lint": "bunx biome check ."
+  },
+  "keywords": [
+    "quark",
+    "quark-cloud-drive",
+    "tampermonkey",
+    "userscript",
+    "downloader",
+    "browser-extension"
+  ],
+  "author": "hyperlook",
+  "license": "MIT"
+}
